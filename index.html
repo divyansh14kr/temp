@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LactoSense - Milk Quality Prediction</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #007BFF;
+        }
+        .content {
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+        .btn-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .btn-look {
+            background-color: #007BFF;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .btn-look:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>LactoSense - Milk Quality Prediction</h1>
+        <p>Team ID: MITADTHW080 | Team Name: LactoSense</p>
+    </header>
+
+    <div class="container">
+        <h2>PROJECT OVERVIEW</h2>
+        <p class="content">
+            Our project focuses on using artificial intelligence and image processing to assess milk quality. By analyzing the pH level of raw and processed milk via colorimetric tests, we predict the microbial content and freshness of milk.
+        </p>
+        <p class="content">
+            The process begins with capturing images of pH test strips using a smartphone camera. These images are processed using Python libraries to extract the color, which helps determine whether the milk is fresh, spoiling, or spoiled.
+        </p>
+        <p class="content">
+            Using machine learning models like SVM and Random Forest, we predict milk quality, freshness duration, and microbial count. This innovative approach aims to provide real-time milk quality insights.
+        </p>
+        <div class="btn-container">
+            <button class="btn-look" onclick="location.href='https://colab.research.google.com/drive/1DJcPF0SFk-O6ADHJ0AIqijHytYlzUYjI#scrollTo=bZkWi3Rj1mUo'" >Let's Have a Look</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 LactoSense | MITADTHW080</p>
+    </footer>
+
+</body>
+</html>
